@@ -49,7 +49,7 @@ function App() {
                     <div className="absolute w-35 h-35">
                       <div className="absolute inset-0 rounded-full border border-gray-300 animate-ping"></div>
                     </div>
-                    <img className='Intro-img object-cover z-10' src="./me.webp" alt="image" />
+                    <img className='Intro-img object-cover z-10' src="./Code nest logo.png" alt="image" />
                   </div>
                 </div>
                 <div className="project-details text-white">
