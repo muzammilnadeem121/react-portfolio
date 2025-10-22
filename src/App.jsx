@@ -10,7 +10,7 @@ function App() {
       <section className='Intro'>
         <div className="Intro-Text display">
           <span>Hi, I’m Muzammil,</span>
-          <img loading='lazy' className='Intro-img' src="/me.webp" alt="image"/>
+          <img loading='lazy' className='Intro-img' src="/me.webp" alt=""/>
           <p>a Full-Stack Web Developer</p>
         </div>
       </section>
