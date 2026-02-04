@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Card from './components/Card'
+import ProjectCard from './components/ProjectCard'
 import './App.css'
 
 function App() {
@@ -20,10 +21,10 @@ function App() {
         </div>
         <div className="section-body">
           <div className="card-container">
-            <Card title={"silverskincoffee.ie"} details={"2024 / Development"} desc={"E-Commerce website that sells coffee beans. WordPress, Woocommerce."}></Card>
-            <Card title={"silverskincoffee.ie"} details={"2024 / Development"} desc={"E-Commerce website that sells coffee beans. WordPress, Woocommerce."}></Card>
-            <Card title={"silverskincoffee.ie"} details={"2024 / Development"} desc={"E-Commerce website that sells coffee beans. WordPress, Woocommerce."}></Card>
-            <Card title={"silverskincoffee.ie"} details={"2024 / Development"} desc={"E-Commerce website that sells coffee beans. WordPress, Woocommerce."}></Card>
+            <Card title={"lime-wave"} details={"2025 / Development / React / GSAP"} desc={"E-Commerce Landing page for a cocktail website."} url={"lime-wave.vercel.app"}></Card>
+            <Card title={"Books Bound"} details={"2026 / Development / Flutter / Firebase"} desc={"Books Store App with Flutter and Firebase."} url={"github.com/muzammilnadeem121/Flutter-Book-Store-App"}></Card>
+            <Card title={"Bank Management System"} details={"2024 / Development / C#"} desc={"Console App of Bank Management System in C#"} url={"github.com/muzammilnadeem121/Bank-Management-System-Csharp"}></Card>
+            <Card title={"Movie App"} details={"2025 / Development / React / TailwindCSS"} desc={"Movie App Landing page with React and Tailwind."} url={"github.com/muzammilnadeem121/react-movie-app"}></Card>
           </div>
         </div>
       </section>
@@ -33,16 +34,7 @@ function App() {
         </div>
         <div className="section-body">
           <div className="card-container">
-            <div className="project-card border">
-              <div className="project-cover">
-                <img className='w-full h-full' src="./project-glowy.webp" alt="project-image" />
-              </div>
-              <div className="project-details">
-                <div className="project-title display">Glowy Icons</div>
-                <div className="project-desc">Colorful and bright vector icons with slight shadows</div>
-                <a href="#"><button className="project-btn bg-gray-200 hover:bg-gray-300">Figma Link <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg></button></a>
-              </div>
-            </div>
+            <ProjectCard></ProjectCard>
             <div className="project-card bg-red-500 ">
                 <div className="project-cover">
                   <div className="cover">
@@ -55,7 +47,7 @@ function App() {
                 <div className="project-details text-white">
                   <div className="project-title display">Watch me on YouTube</div>
                   <div className="project-desc text-white">I talk about WebDev & stuff...</div>
-                  <a href="#"><button className="project-btn border border-neutral-300 hover:border-white">YouTube Channel <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fff"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg></button></a>
+                  <a href="https://youtube.com/@codenest674" target='_blank'><button className="project-btn border border-neutral-300 hover:border-white">YouTube Channel <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#fff"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg></button></a>
               </div>
             </div>
           </div>
@@ -63,10 +55,10 @@ function App() {
       </section>
       <section className='contact'>
         <div className="section-header">
-          <h1 className="display sm:text-6xl text-4xl text-neutral-400 font-medium">Telegram:</h1>
+          <h1 className="display sm:text-6xl text-4xl text-neutral-400 font-medium">Github:</h1>
         </div>
         <div className="section-body">
-          <h2 className="display sm:text-7xl text-5xl font-medium"><a href="#">@muzammil</a></h2>
+          <h2 className="display sm:text-7xl text-5xl font-medium"><a href="https://github.com/muzammilnadeem121" target='_blank'>@muzammilnadeem121</a></h2>
         </div>
       </section>
     </div>
